@@ -1,0 +1,52 @@
+body{
+    position: relative;
+    height: 100vh; 
+    margin: 0; 
+    background: linear-gradient(to bottom,#CCD0CF, #9BA8AB, #4A5C6A, #253745, #11212D, #06141b);
+}
+.boxers{
+    position:relative;
+
+}
+.name{
+    background-color: #4A5C6A;
+    padding: 20px;
+    position:absolute;
+    width: 700px;
+    height: 45px;
+    left: 20px;
+    top: 10px;
+    border-radius: 65px;
+    text-align: left;
+}
+.description{
+    background-color: #4A5C6A;
+    padding: 28px;
+    position:absolute;
+    width: 747px;
+    height: 307px;
+    left: 10px;
+    top: 132px;
+    border-radius: 65px;
+    text-align: left;
+}
+.juanpic {
+    position:absolute;
+    width: 653px;
+    height: 560px;
+    right: 10px;
+    top: 25px;
+    border-radius: 65px;
+    justify-content: right;
+}
+.back{
+    background-color: #4A5C6A;
+    padding: 15px;
+    position:absolute;
+    width: 33px;
+    height: 15px;
+    left: 41px;
+    top: 607px;
+    border-radius: 65px;
+    text-align: left;
+}

@@ -1,0 +1,79 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    height: 100vh; 
+    width: 100vw; 
+}
+
+.div1, .div2 {
+    flex: 1;
+    border: 1px solid #000; 
+    background-image: linear-gradient(to right, white, lightblue)
+}
+
+.div1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.upper-half {
+    flex: 1;
+    border-bottom: 1px solid #000; 
+}
+
+.lower-half {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lower-div {
+    flex: 1 1 50%;
+    border: 1px solid #000; 
+    box-sizing: border-box;
+}
+.profile-picture img {
+    float: right;
+    display: flex;
+    max-width: 100%;
+    height: 100vh;
+    width: 100vw;
+}
+.header {
+    padding: 5px;
+    text-align: center;
+    background-color: #034a53;
+    font-family: 'Comic Sans MS';
+    color: white;
+}
+.pp{
+    text-align: justify;
+    padding: 10px;
+    font-family: 'Comic Sans MS';
+}
+.nodesign{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+.nav{
+    text-decoration: none;
+}
+.back{
+    background-color: #4A5C6A;
+    padding: 15px;
+    position:absolute;
+    width: 33px;
+    height: 15px;
+    left: 41px;
+    top: 607px;
+    border-radius: 65px;
+    text-align: left;
+}
+.boxers{
+    position:relative;
+}

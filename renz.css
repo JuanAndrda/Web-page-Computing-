@@ -1,0 +1,14 @@
+.boxers{
+    position:relative;
+}
+.back{
+    background-color: #4A5C6A;
+    padding: 15px;
+    position:absolute;
+    width: 33px;
+    height: 15px;
+    left: 41px;
+    top: 607px;
+    border-radius: 65px;
+    text-align: left;
+}
